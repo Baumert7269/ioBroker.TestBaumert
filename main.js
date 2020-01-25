@@ -44,7 +44,7 @@ function main() {
 
     // Refresh State every Minute
     refreshState();
-    setInterval(refreshState, repetierIntervall);
+    setInterval(refreshState, (repetierIntervall * 1000));
 }
 
 
