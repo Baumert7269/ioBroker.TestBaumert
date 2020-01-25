@@ -14,10 +14,7 @@ Folgende Daten stehen zur Verfügung:
 
 ## Konfiguration:
 
-IP -Adresse des Repetier-Server
-Port (default 3344)
-API-Key zum Repetier-Server
-Intervallvorgabe
+IP -Adresse des Repetier-Server, Port (default 3344), API-Key zum Repetier-Server, Intervallvorgabe
 
 
 ## Changelog
