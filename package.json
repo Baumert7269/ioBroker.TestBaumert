@@ -1,0 +1,35 @@
+{
+	"name": "iobroker.TestBaumert",
+	"version": "1.0.0",
+    "description": "ioBroker TestBaumert Adapter",
+    "author": {
+		"name": "Thomas Baumert",
+		"email": "thomas.baumert@live.de"
+	},
+    "homepage": "https://github.com/Baumert7269/ioBroker.TestBaumert",
+    "license": "MIT",
+    "keywords": [
+        "ioBroker",
+        "TestBaumert",
+        "Smart Home",
+        "3d Druck"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Baumert7269/ioBroker.TestBaumert"
+    },
+	"dependencies": {
+     
+    },
+    "devDependencies": {
+        
+    },
+    "main": "main.js",
+	"scripts": {
+    
+    },
+    "bugs": {
+        "url": "https://github.com/Baumert7269/ioBroker.TestBaumert/issues"
+    },
+	"readmeFilename": "README.md"
+}

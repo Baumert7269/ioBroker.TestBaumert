@@ -1,0 +1,39 @@
+{
+    "common": {
+        "name": "TestBaumert",
+        "version": "1.0.0",
+        "news": {
+            "1.0.0": {
+                "en": "Init ioBroker Testadapter for RepetierServer",
+                "de": "Init ioBroker Testadapter für RepetierServer"
+                   }
+        },
+        "title": "TestBaumert",
+        "titleLang": {
+            "en": "TestBaumert",
+            "de": "TestBaumert"
+        },
+        "desc": {
+            "en": "TestBaumert",
+            "de": "TestBaumert"
+        },
+        "authors": [
+            "Baumert7269 <thomas.baumert@live.de>"
+        ],
+        "platform": "Javascript/Node.js",
+        "mode": "daemon",
+        "icon": "repetier.png",
+        "materialize": true,
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/Baumert7269/ioBroker.TestBaumert/master/admin/repetier.png",
+        "keywords": [
+            "repetier"
+        ],
+        "license": "MIT",
+        "readme": "https://github.com/Baumert7269/ioBroker.TestBaumert/blob/master/README.md",
+        "loglevel": "info",
+        "type": "hardware"
+    },
+    "native": {},
+    "objects": []
+}
