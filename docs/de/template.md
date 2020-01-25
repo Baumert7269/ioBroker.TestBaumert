@@ -1,23 +1,15 @@
 # Dokumentation
 
-Adapter für die Datenabfrage von Repetier-Server für 3d Drucker.
+ioBroker Testadapter für Repetier-Server (3D-Drucker).
 
-Folgende Daten werden abgefragt:
+Folgende Daten stehen zur Verfügung:
 
-- Temperatur Extruder
-- Temperatur Bett
-- Name Druckteil
-- Layerhöhe
-- Gesamte Druckzeit
-- gedruckte Zeit
-- Druckstatus in %
-- Firmware
-- Flow in %
-- Speed in %
+- xxx
+- xxx
+- xxx
+- xxx
 
 
+## Konfiguration:
 
-Konfiguration:
-
-IP Adresse vom Repetier Server eingeben, den Port (default 3344) und den API-Key (findet man im Repetier-Server WebUI. Einstellungen -> Globale Einstellungen -> Konnektivität)
-Danach noch die vorhandenen Druckernamen eintragen (Dieser Name muss mit dem Namen in Repetier-Server überinstimmen)
+IP -Adresse des Repetier-Server, Port (default 3344), API-Key zum Repetier-Server, Intervallvorgabe
