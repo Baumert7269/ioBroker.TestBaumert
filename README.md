@@ -2,11 +2,11 @@
 # ioBroker.TestBaumert
 ======================
 
-ioBroker Testadapter für Repetier-Server (3D-Drucker).
+ioBroker Testadapter fÃ¼r Repetier-Server (3D-Drucker).
 
-Folgende Daten stehen zur Verfügung:
+Folgende Daten stehen zur VerfÃ¼gung:
 
-- xxx
+- Extruderanzahl
 - xxx
 - xxx
 - xxx
