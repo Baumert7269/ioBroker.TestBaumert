@@ -1,39 +1,35 @@
 ![Logo](admin/repetier.png)
-# ioBroker.repetier
-=================
+# ioBroker.TestBaumert
+======================
 
-ioBroker adapter to retrieve data from Repetier-Server for 3d printers.
+ioBroker Testadapter für Repetier-Server (3D-Drucker).
 
-The following data is requested:
+Folgende Daten stehen zur Verfügung:
 
-- Temperature Extruder
-- Temperature Bed
-- Name Print Part
-- Layerheight
-- Printed Time complete
-- Printed Time
-- Rest time
-- Print status in %
-- Firmware
-- Flow in %
-- Speed in %
+- xxx
+- xxx
+- xxx
+- xxx
 
 
-## Configuration:
+## Konfiguration:
 
-Enter the IP address of Repetier server, enter port (default 3344) and API key (can be found in the Repetier-Server WebUI Settings -> Global Settings -> Connectivity). Then enter the existing printer names (this name must agree with the name in Repetier-Server and printer names must be entered in alphabetical order).
+IP -Adresse des Repetier-Server
+Port (default 3344)
+API-Key zum Repetier-Server
+Intervallvorgabe
 
 
 ## Changelog
 
-### 0.0.1
-* (coyote1) initial release
+### 1.0.0
+* (Baumert7269) initial release
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2018 coyote1 <coyote_f@web.de>
+Copyright (c) 2020 Baumert7269 <thomas.baumert@live.de>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
