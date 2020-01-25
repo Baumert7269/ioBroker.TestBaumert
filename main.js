@@ -27,15 +27,16 @@ function main() {
     adapter.subscribeStates('*');
 	adapter.log.debug('subscribed');
 	
-	repetierIP = adapter.config.repetierIP;
-	repetierPort = adapter.config.repetierPort;
-	repetierApi = adapter.config.repetierApi;
+	repetierIP = adapter.config.repIP;
+	repetierPort = adapter.config.repPort;
+	repetierApi = adapter.config.repApiKey;
+	repetierIntervall = adapter.config.repIntervall;
 	printerrepone = adapter.config.printerone;
-	printerone = printerrepone.replace(/ /g, '_'); //Leerzeichen ersetzen
-	printerreptwo = adapter.config.printertwo;
-	printertwo = printerreptwo.replace(/ /g, '_'); //Leerzeichen ersetzen
-	printerrepthree = adapter.config.printerthree;
-	printerthree = printerrepthree.replace(/ /g, '_'); //Leerzeichen ersetzen
+	//printerone = printerrepone.replace(/ /g, '_'); //Leerzeichen ersetzen
+	//printerreptwo = adapter.config.printertwo;
+	//printertwo = printerreptwo.replace(/ /g, '_'); //Leerzeichen ersetzen
+	//printerrepthree = adapter.config.printerthree;
+	//printerthree = printerrepthree.replace(/ /g, '_'); //Leerzeichen ersetzen
 	path = repetierIP.replace(/\./g, '_') + '.' ;
 
     adapter.log.debug('repetier IP: ' + repetierIP);
@@ -43,7 +44,7 @@ function main() {
 
     // Refresh State every Minute
     refreshState();
-    setInterval(refreshState, 60000);
+    setInterval(refreshState, repetierIntervall);
 }
 
 
