@@ -1,11 +1,11 @@
 {
     "common": {
         "name": "TestBaumert",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "news": {
             "1.0.0": {
                 "en": "Init ioBroker Testadapter for RepetierServer",
-                "de": "Init ioBroker Testadapter für RepetierServer"
+                "de": "Init ioBroker Testadapter fÃ¼r RepetierServer"
                    }
         },
         "title": "TestBaumert",
